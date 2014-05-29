@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09E83AC11937C41100F953C1 /* UIPopoverController+TestFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E83AC01937C41100F953C1 /* UIPopoverController+TestFile.m */; };
 		332FE3CC193681230052D53E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 332FE3CB193681230052D53E /* Foundation.framework */; };
 		332FE3CE193681230052D53E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 332FE3CD193681230052D53E /* CoreGraphics.framework */; };
 		332FE3D0193681230052D53E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 332FE3CF193681230052D53E /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09E83ABF1937C41100F953C1 /* UIPopoverController+TestFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+TestFile.h"; sourceTree = "<group>"; };
+		09E83AC01937C41100F953C1 /* UIPopoverController+TestFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+TestFile.m"; sourceTree = "<group>"; };
 		332FE3C8193681230052D53E /* HelloWorld_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		332FE3CB193681230052D53E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		332FE3CD193681230052D53E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -130,6 +133,8 @@
 				332FE3D4193681230052D53E /* InfoPlist.strings */,
 				332FE3D7193681230052D53E /* main.m */,
 				332FE3D9193681230052D53E /* HelloWorld_ObjC-Prefix.pch */,
+				09E83ABF1937C41100F953C1 /* UIPopoverController+TestFile.h */,
+				09E83AC01937C41100F953C1 /* UIPopoverController+TestFile.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				332FE3DC193681230052D53E /* AppDelegate.m in Sources */,
+				09E83AC11937C41100F953C1 /* UIPopoverController+TestFile.m in Sources */,
 				332FE3FD193682550052D53E /* HelloWorldViewController.m in Sources */,
 				332FE3D8193681230052D53E /* main.m in Sources */,
 			);
@@ -447,6 +453,7 @@
 				332FE3F6193681230052D53E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		332FE3F7193681230052D53E /* Build configuration list for PBXNativeTarget "HelloWorld_ObjCTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +462,7 @@
 				332FE3F9193681230052D53E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
