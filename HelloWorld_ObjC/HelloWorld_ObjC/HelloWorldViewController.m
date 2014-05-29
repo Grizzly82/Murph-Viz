@@ -42,6 +42,12 @@
     
     // Display the Hello World Message
     [helloWorldAlert show];
+    
+    UIAlertView *helloWorldAlert2 = [[UIAlertView alloc]
+                                    initWithTitle:@"My 1000th App" message:@"My alertView is over yours. ;)" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    
+    [helloWorldAlert2 show];
+
 }
 
 @end
